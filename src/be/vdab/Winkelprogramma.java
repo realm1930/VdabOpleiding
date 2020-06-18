@@ -6,8 +6,11 @@ import be.vdab.winkel.Mandje;
 public class Winkelprogramma {
 
     public static void main(String[] args) {
+
         var catalogus = new Catalogus();
         var mandje = new Mandje();
+        System.out.println(mandje);
+        System.out.println(catalogus);
         var teller = 1;
         for (var product : catalogus.getProducten()){
             if (teller % 2 == 0){

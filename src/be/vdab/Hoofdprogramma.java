@@ -8,6 +8,7 @@ import be.vdab.voorwerpen.Woordenboek;
 
 public class Hoofdprogramma {
     public static void main(String[] args) {
+
         var voorwerpen = new Voorwerp [3];
         try {
             voorwerpen[0] = new Leesboek();

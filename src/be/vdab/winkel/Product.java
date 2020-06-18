@@ -27,7 +27,7 @@ public class Product {
     }
 
     public void setPrijs(BigDecimal prijs) {
-        if (prijs.compareTo((BigDecimal.ZERO) < 0)) {
+        if (prijs.compareTo(BigDecimal.ZERO) < 0) {
             throw new IllegalArgumentException("Prijs moet ingevuld worden");
         }
         this.prijs = prijs;
